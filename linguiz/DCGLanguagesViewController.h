@@ -7,15 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class DCGDetailViewController;
-
 #import <CoreData/CoreData.h>
 
-@interface DCGMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@class DCGLanguageDetailViewController;
 
-@property (strong, nonatomic) DCGDetailViewController *detailViewController;
+@interface DCGLanguagesViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
+@property (strong, nonatomic) DCGLanguageDetailViewController *detailViewController;
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 

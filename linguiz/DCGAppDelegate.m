@@ -8,7 +8,7 @@
 
 #import "DCGAppDelegate.h"
 
-#import "DCGMasterViewController.h"
+#import "DCGLanguagesViewController.h"
 
 @implementation DCGAppDelegate
 
@@ -25,11 +25,11 @@
         splitViewController.delegate = (id)navigationController.topViewController;
         
         UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
-        DCGMasterViewController *controller = (DCGMasterViewController *)masterNavigationController.topViewController;
+        DCGLanguagesViewController *controller = (DCGLanguagesViewController *)masterNavigationController.topViewController;
         controller.managedObjectContext = self.managedObjectContext;
     } else {
         UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-        DCGMasterViewController *controller = (DCGMasterViewController *)navigationController.topViewController;
+        DCGLanguagesViewController *controller = (DCGLanguagesViewController *)navigationController.topViewController;
         controller.managedObjectContext = self.managedObjectContext;
     }
     return YES;

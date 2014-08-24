@@ -17,8 +17,8 @@
 		BCB623C91986D3AC00B3F0D0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB623C71986D3AC00B3F0D0 /* Main_iPhone.storyboard */; };
 		BCB623CC1986D3AC00B3F0D0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB623CA1986D3AC00B3F0D0 /* Main_iPad.storyboard */; };
 		BCB623CF1986D3AC00B3F0D0 /* linguiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCB623CD1986D3AC00B3F0D0 /* linguiz.xcdatamodeld */; };
-		BCB623D21986D3AC00B3F0D0 /* DCGMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB623D11986D3AC00B3F0D0 /* DCGMasterViewController.m */; };
-		BCB623D51986D3AD00B3F0D0 /* DCGDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB623D41986D3AD00B3F0D0 /* DCGDetailViewController.m */; };
+		BCB623D21986D3AC00B3F0D0 /* DCGLanguagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB623D11986D3AC00B3F0D0 /* DCGLanguagesViewController.m */; };
+		BCB623D51986D3AD00B3F0D0 /* DCGLanguageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB623D41986D3AD00B3F0D0 /* DCGLanguageDetailViewController.m */; };
 		BCB623D71986D3AD00B3F0D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB623D61986D3AD00B3F0D0 /* Images.xcassets */; };
 		BCB623DE1986D3AD00B3F0D0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB623DD1986D3AD00B3F0D0 /* XCTest.framework */; };
 		BCB623DF1986D3AD00B3F0D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB623B31986D3AC00B3F0D0 /* Foundation.framework */; };
@@ -53,10 +53,10 @@
 		BCB623C81986D3AC00B3F0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		BCB623CB1986D3AC00B3F0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		BCB623CE1986D3AC00B3F0D0 /* linguiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = linguiz.xcdatamodel; sourceTree = "<group>"; };
-		BCB623D01986D3AC00B3F0D0 /* DCGMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCGMasterViewController.h; sourceTree = "<group>"; };
-		BCB623D11986D3AC00B3F0D0 /* DCGMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGMasterViewController.m; sourceTree = "<group>"; };
-		BCB623D31986D3AC00B3F0D0 /* DCGDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCGDetailViewController.h; sourceTree = "<group>"; };
-		BCB623D41986D3AD00B3F0D0 /* DCGDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGDetailViewController.m; sourceTree = "<group>"; };
+		BCB623D01986D3AC00B3F0D0 /* DCGLanguagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCGLanguagesViewController.h; sourceTree = "<group>"; };
+		BCB623D11986D3AC00B3F0D0 /* DCGLanguagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGLanguagesViewController.m; sourceTree = "<group>"; };
+		BCB623D31986D3AC00B3F0D0 /* DCGLanguageDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCGLanguageDetailViewController.h; sourceTree = "<group>"; };
+		BCB623D41986D3AD00B3F0D0 /* DCGLanguageDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGLanguageDetailViewController.m; sourceTree = "<group>"; };
 		BCB623D61986D3AD00B3F0D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BCB623DC1986D3AD00B3F0D0 /* linguizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = linguizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB623DD1986D3AD00B3F0D0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -129,10 +129,10 @@
 				BCB623C51986D3AC00B3F0D0 /* DCGAppDelegate.m */,
 				BCB623C71986D3AC00B3F0D0 /* Main_iPhone.storyboard */,
 				BCB623CA1986D3AC00B3F0D0 /* Main_iPad.storyboard */,
-				BCB623D01986D3AC00B3F0D0 /* DCGMasterViewController.h */,
-				BCB623D11986D3AC00B3F0D0 /* DCGMasterViewController.m */,
-				BCB623D31986D3AC00B3F0D0 /* DCGDetailViewController.h */,
-				BCB623D41986D3AD00B3F0D0 /* DCGDetailViewController.m */,
+				BCB623D01986D3AC00B3F0D0 /* DCGLanguagesViewController.h */,
+				BCB623D11986D3AC00B3F0D0 /* DCGLanguagesViewController.m */,
+				BCB623D31986D3AC00B3F0D0 /* DCGLanguageDetailViewController.h */,
+				BCB623D41986D3AD00B3F0D0 /* DCGLanguageDetailViewController.m */,
 				BCB623D61986D3AD00B3F0D0 /* Images.xcassets */,
 				BCB623CD1986D3AC00B3F0D0 /* linguiz.xcdatamodeld */,
 				BCB623BC1986D3AC00B3F0D0 /* Supporting Files */,
@@ -267,9 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCB623D51986D3AD00B3F0D0 /* DCGDetailViewController.m in Sources */,
+				BCB623D51986D3AD00B3F0D0 /* DCGLanguageDetailViewController.m in Sources */,
 				BCB623C21986D3AC00B3F0D0 /* main.m in Sources */,
-				BCB623D21986D3AC00B3F0D0 /* DCGMasterViewController.m in Sources */,
+				BCB623D21986D3AC00B3F0D0 /* DCGLanguagesViewController.m in Sources */,
 				BCB623CF1986D3AC00B3F0D0 /* linguiz.xcdatamodeld in Sources */,
 				BCB623C61986D3AC00B3F0D0 /* DCGAppDelegate.m in Sources */,
 			);

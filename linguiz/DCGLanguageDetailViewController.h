@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DCGDetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface DCGLanguageDetailViewController : UIViewController <UISplitViewControllerDelegate>
 
 @property (strong, nonatomic) id detailItem;
-
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
 @end

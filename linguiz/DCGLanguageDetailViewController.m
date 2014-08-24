@@ -6,14 +6,14 @@
 //
 //
 
-#import "DCGDetailViewController.h"
+#import "DCGLanguageDetailViewController.h"
 
-@interface DCGDetailViewController ()
+@interface DCGLanguageDetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
 - (void)configureView;
 @end
 
-@implementation DCGDetailViewController
+@implementation DCGLanguageDetailViewController
 
 #pragma mark - Managing the detail item
 
